@@ -1,8 +1,6 @@
 import { ImageProps } from "next/image";
 
-
-
-export interface IImage extends ImageProps {}
+export type IImage = ImageProps;
 
 export type UserProps = {
     picture: IImage;

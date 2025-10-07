@@ -37,7 +37,7 @@ const Header = () => {
                         alt='RAGEBITE Logo'
                         src="/assets/icons/logo_white.svg"
                     />
-                    <span className='text-gray-700 max-w-[183px] -ml-2 hidden sm:block text-xs font-bold leading-[1.35] font-chakra-petch tracking-[1.68px]'>//   WE BUILD NEXT-GEN DIGITAL PRODUCTSEST 2017</span>
+                    <span className='text-gray-700 max-w-[183px] -ml-2 hidden sm:block text-xs font-bold leading-[1.35] font-chakra-petch tracking-[1.68px]'> {"//   WE BUILD NEXT-GEN DIGITAL PRODUCTS EST 2017"}</span>
                 </Link>
                 <div className="flex items-center gap-x-5 gap-y-2 sm:gap-[37px]">
                     <nav className='flex items-center justify-end gap-[43px]'>
@@ -77,7 +77,9 @@ const Header = () => {
                     </ul>
                 </div>
             </header>
-            <span className='text-gray-700 py-2 px-5 sm:hidden block text-xs font-bold leading-[1.35] font-chakra-petch tracking-[1.68px]'>//   WE BUILD NEXT-GEN DIGITAL PRODUCTSEST 2017</span>
+            <span className='text-gray-700 py-2 px-5 sm:hidden block text-xs font-bold leading-[1.35] font-chakra-petch tracking-[1.68px]'>
+            {"//   WE BUILD NEXT-GEN DIGITAL PRODUCTS EST 2017"}
+            </span>
          </>
     )
 }
